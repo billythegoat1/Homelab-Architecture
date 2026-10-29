@@ -1,0 +1,12 @@
+arch: amd64
+cores: 2
+dev0: /dev/dri/renderD128,gid=993
+dev1: /dev/dri/card0,gid=44
+features: nesting=1
+hostname: Upscayl
+memory: 2048
+net0: name=eth0,bridge=vmbr0,firewall=1,gw=192.168.100.1,hwaddr=BC:24:11:4F:62:1B,ip=192.168.100.40/24,type=veth
+ostype: debian
+rootfs: local-lvm:vm-103-disk-0,size=4G
+swap: 512
+unprivileged: 1
